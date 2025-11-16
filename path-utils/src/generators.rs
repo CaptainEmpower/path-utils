@@ -257,6 +257,7 @@ impl ScenarioGenerators {
 mod tests {
     use super::*;
 
+
     proptest! {
         #[test]
         fn path_generators_produce_valid_output(
