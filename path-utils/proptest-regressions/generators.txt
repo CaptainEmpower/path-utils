@@ -1,0 +1,9 @@
+# Seeds for failure cases proptest has generated in the past. It is
+# automatically read and these particular cases re-run before any
+# novel cases are generated.
+#
+# It is recommended to check this file in to source control so that
+# everyone who runs the test benefits from these saved cases.
+cc fbbf2cf0a33bdfef93a10344630e2ea6cf0039158788353d27af86a792b5b7a9 # shrinks to dangerous_path = "file<script>"
+cc d92cda7b85d467040c1f628601e31a3d573edf1211bce1eddd7dd8903ef40eec # shrinks to dangerous_path = "COM1"
+cc a399ae543a48a27f2c6fac5c6f07dc08ad2528895e481903fa2c68721f2e01cd # shrinks to dangerous_path = "PRNT"

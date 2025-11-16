@@ -1,0 +1,20 @@
+[package]
+name = "path-utils"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+repository = "https://github.com/CaptainEmpower/git-mvh"
+description = "Secure, cross-platform path normalization and validation utilities"
+keywords = ["path", "filesystem", "security", "validation", "normalization"]
+categories = ["filesystem", "development-tools"]
+readme = "README.md"
+
+[dependencies]
+thiserror = "2.0"
+
+[dev-dependencies]
+tempfile = "3.0"
+proptest = "1.0"
+
+[features]
+default = []
